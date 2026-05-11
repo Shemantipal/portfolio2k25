@@ -56,9 +56,9 @@ const ProjectCard = () => {
     {
       id: 6,
       image: notion,
-      title: "Kahanilikho",
-      description: "A Blogging Application using EJS,React,TypeScript",
-      link: "https://kahanilikho.vercel.app/",
+      title: "Stockmaster",
+      description: "using numberplate and streamlit to create a stock market dashboard",
+      link: "https://stockmaster.streamlit.app/",
       target: "_blank",
     },
     {

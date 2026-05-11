@@ -77,7 +77,7 @@ const Header = () => {
       }
       transition-all duration-300 z-40
       dark:text-white
-      w-[92%] sm:w-[88%] md:w-[78%] lg:w-[66%] xl:w-[58%]
+     w-[90%] sm:w-[82%] md:w-[68%] lg:w-[56%] xl:w-[50%]
       max-w-5xl
       mx-auto
       bg-white/70 dark:bg-[#141414cc]
@@ -92,14 +92,14 @@ const Header = () => {
               <Image
                 src={pranjal_header_black}
                 alt="header"
-                width={135}
+                width={115}
                 priority
               />
             ) : (
               <Image
                 src={pranjal_header_white}
                 alt="header"
-                width={135}
+                width={115}
                 priority
               />
             )}
@@ -117,14 +117,7 @@ const Header = () => {
                     : "text-gray-700 dark:text-gray-200"
                 }`}
               >
-                <span className="flex items-start gap-1">
-                  {link.name}
-                  {link.name === "timeline" && (
-                    <sup className="text-[8px] rounded bg-red-600 px-1 text-white">
-                      1
-                    </sup>
-                  )}
-                </span>
+              <span>{link.name}</span>
               </Link>
             </li>
           ))}
