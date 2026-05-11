@@ -79,7 +79,7 @@ const tech = () => {
   {
     title: "Node.js",
     id: 7,
-    main: "/icons/nodejs-original.svg",
+    main: "/icons/node.png",
     desc: "A JavaScript runtime used for building scalable backend APIs and server-side applications.",
     tag: "backend",
     bg: "bg-green-50",
@@ -88,7 +88,7 @@ const tech = () => {
   {
     title: "Java",
     id: 8,
-    main: "/icons/java-original.svg",
+    main: "/icons/java.png",
     desc: "A powerful object-oriented language used for backend systems, enterprise apps, and scalable software.",
     tag: "backend",
     bg: "bg-orange-50",
@@ -97,7 +97,7 @@ const tech = () => {
   {
     title: "PostgreSQL",
     id: 9,
-    main: "/icons/postgresql-original.svg",
+    main: "/icons/postgr.png",
     desc: "A reliable relational database used for structured data, queries, and production-grade applications.",
     tag: "database",
     bg: "bg-blue-50",
@@ -106,7 +106,7 @@ const tech = () => {
   {
     title: "MongoDB",
     id: 10,
-    main: "/icons/mongodb-original.svg",
+    main: "/icons/mongo.png",
     desc: "A NoSQL database used for flexible document-based data storage.",
     tag: "database",
     bg: "bg-green-50",
@@ -115,7 +115,7 @@ const tech = () => {
   {
     title: "Prisma",
     id: 11,
-    main: "/icons/prisma-original.svg",
+    main: "/icons/prisma.png",
     desc: "A modern ORM that makes database queries, schema management, and migrations easier.",
     tag: "database",
     bg: "bg-gray-900",
@@ -124,7 +124,7 @@ const tech = () => {
   {
     title: "OracleDB",
     id: 12,
-    main: "/icons/oracle-original.svg",
+    main: "/icons/41QodfboFdL.png",
     desc: "An enterprise-grade relational database used for secure and large-scale data management.",
     tag: "database",
     bg: "bg-red-50",
@@ -133,7 +133,7 @@ const tech = () => {
   {
     title: "Groovy",
     id: 13,
-    main: "/icons/groovy-original.svg",
+    main: "/icons/groovy.png",
     desc: "A JVM-based scripting language often used for automation, testing, and build workflows.",
     tag: "code",
     bg: "bg-blue-50",
@@ -142,7 +142,7 @@ const tech = () => {
   {
     title: "AWS",
     id: 14,
-    main: "/icons/amazonwebservices-original.svg",
+    main: "/icons/images.png",
     desc: "A cloud platform used for hosting, storage, deployment, and scalable infrastructure.",
     tag: "cloud",
     bg: "bg-orange-50",
@@ -151,7 +151,7 @@ const tech = () => {
   {
     title: "Azure",
     id: 15,
-    main: "/icons/azure-original.svg",
+    main: "/icons/az.png",
     desc: "Microsoft’s cloud platform for deploying, managing, and scaling applications.",
     tag: "cloud",
     bg: "bg-blue-50",
@@ -160,7 +160,7 @@ const tech = () => {
   {
     title: "Tricentis Tosca",
     id: 16,
-    main: "/icons/tosca.svg",
+    main: "/icons/tosca.png",
     desc: "A test automation tool used for end-to-end testing, regression testing, and quality assurance.",
     tag: "testing",
     bg: "bg-purple-50",
