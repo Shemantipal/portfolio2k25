@@ -5,7 +5,6 @@ import { FaRegStar } from "react-icons/fa";
 import Image from "next/image";
 import LinkedIn from "../public/icons/linkedin@2x.png";
 import GitHub from "../public/icons/github@2x.png";
-import Behance from "../public/icons/behance@2x.png";
 import Instagram from "../public/icons/instagram@2x.png";
 import Gmail from "../public/icons/google@2x.png";
 import Star from "@/public/Star.svg";
@@ -18,7 +17,7 @@ const Footer = () => {
     const getData = async () => {
       try {
         const response = await fetch(
-          "https://api.github.com/repos/pranjalshikhar/portfolio-v3"
+          "https://api.github.com/repos/Shemantipal/portfolio2k25"
         );
 
         if (!response.ok) {
@@ -56,7 +55,7 @@ const Footer = () => {
         </Link>
       </div>
 
-      <a href="https://github.com/shemantipal" target="_blank" className="flex flex-col text-center group w-max">
+     <a href="https://github.com/Shemantipal/portfolio2k25" target="_blank" className="flex flex-col text-center group w-max">
         <div onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)} className="relative transition-all">
           <p className={`font-bold text-lg transition ${isHovering ? "scale-150 blur-sm" : ""}`}>
            shemanti pal
