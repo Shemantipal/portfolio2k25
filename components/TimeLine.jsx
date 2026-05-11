@@ -4,24 +4,33 @@ const TimeLine = () => {
   const data = [
     {
       id: 0,
-      title: "Software Developer Intern",
-      duration: "October 2024",
-      org: "HyrecruitAI",
+      title: "Full Stack Developer",
+      duration: "October 2024 - Present",
+      org: "HyrecruitAI (Prepverse)",
       skills: ["Next.js", "Redux.js", "SASS", "TypeScript"],
       class:
         "bg-red-100 text-red-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300",
     },
-    {
+      {
       id: 1,
+      title: "Full Stack Developer Intern",
+      duration: "August 2025 - October 2025",
+      org: "Variable Energy Cyclotron Centre ,BARC",
+      skills: ["Groovy", "OracleDB", "Grails", "TypeScript" , "Oracle SQL Developer"],
+      class:
+        "bg-red-100 text-red-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-red-900 dark:text-red-300",
+    },
+    {
+      id: 2,
       title: "Design Lead",
       duration: "Jun 2023 - Jun 2025",
       org: "Google Developer Student Club",
-      skills: ["JNext.js", "React.js", "Canva", "Figma"],
+      skills: ["Next.js", "React.js", "Canva", "Figma"],
       class:
         "bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300",
     },
     {
-      id: 2,
+      id: 3,
       title: "Technical Content Writer Internship",
       duration: "Nov 2023 - May 2024",
       org: "BashSchool",
@@ -30,7 +39,7 @@ const TimeLine = () => {
         "bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300",
     },
     {
-      id: 3,
+      id: 4,
       title: "Contributor",
       duration: "May 2023",
       org: "Girlscript Summer of Code 2023",
